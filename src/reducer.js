@@ -41,6 +41,7 @@ const move = (state = initialState, action) => {
             ...state,
             x: state.x - 1,
           }
+  
         default:
           return state;
       }
